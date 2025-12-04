@@ -3,24 +3,33 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --backgroundFrame: #645f73;
+  --foregroundFrame: #e2e3e7;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
+  background-image:  radial-gradient(#2218ee 0.5px, transparent 0.5px), radial-gradient(#2218ee 0.5px, #ffffff 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0,10px 10px;
+
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.HomeGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 720px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.backtohome {
+  margin: 20px 40px;
+  font-size: 50px; 
+  color: #6933ff;
 }
