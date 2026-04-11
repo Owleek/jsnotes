@@ -6,6 +6,7 @@ export default function Javascript() {
     <TileGrid>
       <TileLink href='/javascript/modules'>Модули</TileLink>
       <TileLink href='/javascript/promise'>Promise</TileLink>
+      <TileLink href='/javascript/lexenv'>Lexical Environment</TileLink>
     </TileGrid>
   );
 }
