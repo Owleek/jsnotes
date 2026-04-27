@@ -11,7 +11,7 @@ export default function Home() {
         <TileLink href='/git'>Git</TileLink>
         <TileLink href='/nextJS'>NextJS</TileLink>
         <TileLink href='/algorithm'>Algorithm</TileLink>
-        <TileLink href='/сss'>Css</TileLink>
+        <TileLink href='/css'>Css</TileLink>
       </TileGrid>
     </main>
   );
