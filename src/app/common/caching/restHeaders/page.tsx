@@ -8,6 +8,7 @@ export default function Template() {
         <p>ETag: "abc123"</p>
         <br />
         <p>Cache-Control: max-age=3600</p>
+        <p>Last-Modified</p>
       </NoteItem>
     </Note>
   );
