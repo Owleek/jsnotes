@@ -4,7 +4,7 @@ import { TileGrid, TileLink } from '@/shared/ui/Tile';
 export default function Javascript() {
   return (
     <TileGrid>
-      <div></div>
+      <div>XST атаки</div>
     </TileGrid>
   );
 }
