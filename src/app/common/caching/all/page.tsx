@@ -87,6 +87,7 @@ export default function Template() {
           различные CDN сервера по миру, чтобы сократить расстояние от клиента
           до сервера
         </p>
+        <br />
       </NoteItem>
     </Note>
   );

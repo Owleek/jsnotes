@@ -9,7 +9,10 @@ export default function Javascript() {
       <TileLink href='/common/caching/serverCaching'>Server caching</TileLink>
       <TileLink href='/common/caching/restHeaders'>REST headers</TileLink>
       <TileLink href='/common/caching/frontendCaching'>
-        Frontend caching
+        Frontend-app caching
+      </TileLink>
+      <TileLink href='/common/caching/serviceWorkerCaching'>
+        Service-Worker Caching
       </TileLink>
     </TileGrid>
   );
