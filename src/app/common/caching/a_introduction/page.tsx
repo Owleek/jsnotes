@@ -1,6 +1,8 @@
 import React from 'react';
 import { Note, NoteItem } from '@/shared/ui/Note';
 
+//TODO: Отредактировать введение, структурировать
+
 export default function Template() {
   return (
     <Note title='All'>

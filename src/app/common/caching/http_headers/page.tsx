@@ -3,7 +3,7 @@ import { Note, NoteItem } from '@/shared/ui/Note';
 
 export default function Template() {
   return (
-    <Note title='REST HEADERS'>
+    <Note title='HTTP HEADERS'>
       <NoteItem>
         <p>
           Заголовки являются определяющим фактором кеширования ресурсов
